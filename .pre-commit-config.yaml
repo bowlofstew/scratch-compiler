@@ -1,0 +1,18 @@
+# Available pre-commit hooks
+#   https://pre-commit.com/hooks.html
+repos:
+  -   repo: https://github.com/pre-commit/pre-commit-hooks
+      rev: v2.3.0
+      hooks:
+      -   id: check-added-large-files
+      -   id: check-json
+      -   id: check-merge-conflict
+      -   id: check-symlinks
+      -   id: check-toml
+      -   id: check-vcs-permalinks
+      -   id: check-xml
+      -   id: check-yaml
+      -   id: pretty-format-json
+      -   id: forbid-new-submodules
+      -   id: trailing-whitespace
+      -   id: sort-simple-yaml
