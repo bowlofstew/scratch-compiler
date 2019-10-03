@@ -9,6 +9,7 @@
 ### OSX
 
 `rustup component add rustfmt --toolchain stable-x86_64-apple-darwin`
+`rustup component add clippy --toolchain stable-x86_64-apple-darwin`
 
 ## References
 
